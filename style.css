@@ -107,5 +107,58 @@ body{
     box-shadow: 10px 10px 5px grey;
   }
 
+  .container .JHS{
+    padding: 30px;
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid black;
+    height: auto;
+    width: 33.3%;
+  }
+
+  .JHS img{
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+
+  .container .SHS{
+    padding: 30px;
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid black;
+    height: auto;
+    width: 33.3%;
+  }
+
+  .SHS img{
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 2px solid green;
+  }
+    
+  .container .Uni{
+    padding: 30px;
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid black;
+    height: auto;
+    width: 33.3%;    
+  }
+
+  .Uni img{
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 2px solid #153e6f;
+  }
+    
+  
+
  
 
