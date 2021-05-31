@@ -1,7 +1,4 @@
 body{
-    /* background-image: url(/imgs/bkgrd2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: whitesmoke;
 }
@@ -214,5 +211,17 @@ body{
     border: 3px solid #189ad3;
     padding: 20px;
   }
+
+  .prof {
+    margin-top: 35px;
+    margin-left: 300px;
+    height: 525px; 
+    width: 70%;
+    border: 3px solid #189ad3;
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
  
 
