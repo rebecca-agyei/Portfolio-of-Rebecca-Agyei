@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover; */
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    background-color: whitesmoke;
 }
 
 .sidenav {
@@ -17,6 +17,7 @@ body{
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
+    overflow: hidden;
   }
   
   .sidenav a {
@@ -107,13 +108,25 @@ body{
     box-shadow: 10px 10px 5px grey;
   }
 
-  .container .JHS{
+  .edu {
+    margin-top: 35px;
+    margin-left: 300px;
+    height: 525px; 
+    width: 70%;
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+  }
+  .edu .JHS{
     padding: 30px;
     text-align: center;
     line-height: 25px;
-    border: 2px solid black;
+    border: 4px solid black;
     height: auto;
-    width: 33.3%;
+    width: 30%;
+    border-radius: 20px;
+    background-color: whitesmoke;
   }
 
   .JHS img{
@@ -124,13 +137,15 @@ body{
     border: 2px solid black;
   }
 
-  .container .SHS{
+  .edu .SHS{
     padding: 30px;
     text-align: center;
     line-height: 25px;
-    border: 2px solid black;
+    border: 4px solid #006400;
     height: auto;
-    width: 33.3%;
+    width: 30%;
+    border-radius: 20px;
+    background-color: greenyellow
   }
 
   .SHS img{
@@ -138,16 +153,18 @@ body{
     height: 100px;
     padding: 30px;
     border-radius: 50%;
-    border: 2px solid green;
+    border: 2px solid #006400;
   }
     
-  .container .Uni{
+  .edu .Uni{
     padding: 30px;
     text-align: center;
     line-height: 25px;
-    border: 2px solid black;
+    border: 4px solid #153e6f;
     height: auto;
-    width: 33.3%;    
+    width: 30%;    
+    border-radius: 20px;
+    background-color:aqua;
   }
 
   .Uni img{
@@ -157,8 +174,45 @@ body{
     border-radius: 50%;
     border: 2px solid #153e6f;
   }
-    
-  
 
+  .projects {
+    margin-top: 35px;
+    margin-left: 300px;
+    height: 525px; 
+    width: 70%;
+    padding: 30px;
+    text-align: left;
+    border: 3px solid #189ad3;
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .projects .pro{
+    border-bottom: 4px dashed black;
+    margin: 5px;
+    line-height: 10px;
+  }
+
+  .container iframe{
+    margin: auto;
+  }
+  
+  .contacts {
+    margin-top: 35px;
+    margin-left: 300px;
+    height: 525px; 
+    width: 70%;
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .contacts .cc{
+    margin: auto;
+    text-align: center;
+    border: 3px solid #189ad3;
+    padding: 20px;
+  }
  
 
